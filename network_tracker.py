@@ -22,5 +22,3 @@ while True:
 
     last_up_mib = current_up_mib
     last_down_mib = current_down_mib
-
-last_down_mib
