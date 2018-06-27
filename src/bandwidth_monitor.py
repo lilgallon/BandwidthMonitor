@@ -54,7 +54,6 @@ def main():
 
 def add_data(down_speed, up_speed):
     if len(times) > 1:
-        print(divmod((times[-1] - times[0]).total_seconds(), 60)[0])
         if divmod((times[-1] - times[0]).total_seconds(), 60)[0] >= DATA_DURATION:
             del times[0]
             del speeds_recv[0]
