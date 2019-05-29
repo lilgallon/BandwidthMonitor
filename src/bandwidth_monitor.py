@@ -89,4 +89,4 @@ if __name__ == '__main__':
     try:
         main()
     except Exception as e:
-        logger.exception('Une erreur inattendue est survenue.')
+        logger.exception('Unexpected error')
